@@ -105,6 +105,14 @@
             <a href="#services-focus" class="block py-2 px-4 text-sm hover:bg-gray-200">Services</a>
         </div>
     </header>
+    <script>
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
 </body>
 </html>
 
